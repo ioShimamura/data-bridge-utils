@@ -1,0 +1,9 @@
+flask==3.0.3
+mysql-connector-python==9.0.0
+numpy==2.0.1
+joblib==1.4.2
+scikit-learn==1.5.1
+requests==2.32.3
+pytz==2024.1
+gunicorn==22.0.0
+openai==1.35.10
