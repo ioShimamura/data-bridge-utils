@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Configuración de MySQL
 db_config = {
-    'host': 'localhost',  # O IP de tu servidor MySQL (actualizar para Render)
+    'host': '193.203.166.231',  # O IP de tu servidor MySQL (actualizar para Render)
     'user': 'u988743154_shima',
     'password': 'ticzi9-daqdot-gyFqep',
     'database': 'u988743154_DataManager'
