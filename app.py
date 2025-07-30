@@ -31,8 +31,8 @@ OPENAI_PARAMS = {
 }
 
 # Cargar modelo y scaler
-knn = joblib.load('knn_model.joblib')
-scaler = joblib.load('scaler.joblib')
+knn = joblib.load('knn_model_fixed.joblib')
+scaler = joblib.load('scaler_fixed.joblib')
 
 # Mapeo inverso
 reverse_label_mapping = {0: 'low', 1: 'medium', 2: 'high'}
